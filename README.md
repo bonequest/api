@@ -48,6 +48,10 @@ API responses are wrapped with meta data that may or may not be useful:
 * width = image width
 * year = year published
 
+## Optional Fields
+
+Empty fields may not be present rather than returning empty strings or empty lists.
+
 # Fetch an episode: /api/v2/episode/[EPISODE #]
 
 Example: https://www.bonequest.com/api/v2/episode/420
