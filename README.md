@@ -10,7 +10,6 @@ API responses are wrapped with meta data that may or may not be useful:
 
 * contact = preferred email address
 * high = highest episode # published so far
-* queue = date when we run out of episodes queued for publication
 * repo = URL to this repo
 * url = base URL to website, use this to construct a fully-qualified URL for loading images and thumbnails
 * version = API version
@@ -214,15 +213,6 @@ Returns an additional `search` key with this info:
         "contact": "root@bonequest.com",
         "gay": true,
         "high": 8340,
-        "queue": {
-            "empty": {
-                "day": 13,
-                "month": 6,
-                "year": 2022
-            },
-            "episodes": [],
-            "size": 146
-        },
         "repo": "https://github.com/bonequest",
         "url": "https://www.bonequest.com",
         "version": "bq/4.0.0"
